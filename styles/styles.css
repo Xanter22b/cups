@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'misoregular';
+    src: url('./fonts/miso-webfont.woff2') format('woff2'),
+         url('./fonts/miso-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'misobold';
+    src: url('./fonts/miso_bold/miso-bold-webfont.woff2') format('woff2'),
+         url('./fonts/miso_bold/miso-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	width: 1200px;
+	height: 600px;
+	background-color: #fdde7e;
+	display: flex;
+	justify-content: space-evenly; 
+	align-items: center;	
+}
+
+/* BRONZE CUP */
+
+.bronze_cup{
+	height: 441px;
+	width: 360px;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
+}
+
+.bronze_cup h1{
+	font-family: 'misobold', Arial, sans-serif;
+	font-size: 64px;
+	color: #02995b;
+	margin: 0;
+	margin-top: 23px;	
+}
+	
+.bronze_cup img{
+	margin-top: 14px;
+}
+		
+.bronze_cup h2{
+	font-family: 'misoregular', Arial, sans-serif;
+	font-size: 56px;
+	color: #333333;	
+	margin: 0;
+	margin-top: 26px;	
+}
+
+.bronze_cup p{
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 20px;
+	color: #333333;
+	margin: 0;
+	margin-top: 29px;
+	text-align: center;		
+}
+/* BRONZE CUP */
+
+
+/* GOLD CUP */
+
+.gold_cup{
+	height: 500px;
+	width: 360px;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
+}
+
+.gold_cup h1{
+	font-family: 'misobold', Arial, sans-serif;
+	font-size: 64px;
+	color: #02995b;
+	margin: 0;
+	margin-top: 40px;
+}
+	
+.gold_cup img{
+	margin-top: 34px;
+}
+		
+.gold_cup h2{
+	font-family: 'misoregular', Arial, sans-serif;
+	font-size: 56px;
+	color: #333333;	
+	margin: 0;
+	margin-top: 40px;	
+}
+
+.gold_cup p{
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 20px;
+	color: #333333;
+	margin: 0;
+	margin-top: 21px;
+	text-align: center;		
+}
+/* GOLD CUP */
+
+/* SILVER CUP */
+
+.silver_cup{
+	height: 441px;
+	width: 360px;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
+}
+
+.silver_cup h1{
+	font-family: 'misobold', Arial, sans-serif;
+	font-size: 64px;
+	color: #02995b;
+	margin: 0;
+	margin-top: 23px;
+}
+	
+.silver_cup img{
+	margin-top: 14px;
+}
+		
+.silver_cup h2{
+	font-family: 'misoregular', Arial, sans-serif;
+	font-size: 56px;
+	color: #333333;	
+	margin: 0;
+	margin-top: 26px;	
+}
+
+.silver_cup p{
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 20px;
+	color: #333333;
+	margin: 0;
+	margin-top: 29px;
+	text-align: center;		
+}
+/* SILVER CUP */
